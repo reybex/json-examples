@@ -1,0 +1,58 @@
+{
+    "material": [
+        {
+            "productCode": "M100",
+            "productName": "Tek Kişilik Yaylı Yatak",
+            "totalQuantity": 4,
+            "volume": 40
+        },
+        {
+            "productCode": "M110",
+            "productName": "Çift Kişilik Yaylı Yatak",
+            "totalQuantity": 9,
+            "volume": 70
+        },
+        {
+            "productCode": "M200",
+            "productName": "Ortopedik Yastık",
+            "totalQuantity": 57,
+            "volume": 8
+        },
+        {
+            "productCode": "M210",
+            "productName": "Kuş Tüyü Yastık",
+            "totalQuantity": 3,
+            "volume": 10
+        },
+        {
+            "productCode": "M300",
+            "productName": "Baza (Tek Kişilik)",
+            "totalQuantity": 5,
+            "volume": 60
+        },
+        {
+            "productCode": "M310",
+            "productName": "Baza (Çift Kişilik)",
+            "totalQuantity": 2,
+            "volume": 100
+        },
+        {
+            "productCode": "M400",
+            "productName": "Yatak Başlığı",
+            "totalQuantity": 8,
+            "volume": 30
+        },
+        {
+            "productCode": "M500",
+            "productName": "Kışlık Kalın Battaniye",
+            "totalQuantity": 37,
+            "volume": 15
+        },
+        {
+            "productCode": "M600",
+            "productName": "Yazlık Pike",
+            "totalQuantity": 43,
+            "volume": 7
+        }
+    ]
+}
