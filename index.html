@@ -3,67 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Examples</title>
+    <title>API JSON Endpoints</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 40px;
-            background: #f6f6f6;
+            background: #eef1f5;
         }
         h1 {
-            color: #333;
+            color: #2c3e50;
         }
-        .container {
+        .api-box {
             background: white;
             padding: 20px;
             border-radius: 10px;
-            max-width: 600px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 850px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.1);
         }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 15px;
+        .endpoint {
+            background: #ffffff;
+            border-left: 5px solid #4070f4;
             padding: 12px;
-            background: #fafafa;
-            border-left: 3px solid #5a73ff;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .methods span {
+            padding: 3px 7px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 12px;
+            color: white;
+        }
+        .get { background: #2ecc71; }
+        .post { background: #3498db; }
+        .put { background: #f39c12; }
+        .delete { background: #e74c3c; }
+        .info {
+            color: #555;
+            font-size: 13px;
+            margin-top: 5px;
         }
         a {
-            text-decoration: none;
             font-weight: bold;
-            color: #333;
+            color: #2c3e50;
+            text-decoration: none;
         }
-        small {
-            display: block;
-            color: gray;
-            margin-top: 5px;
+        a:hover {
+            color: #3478ff;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>📁 JSON Örnekleri</h1>
-    <p>Aşağıdaki listede projede bulunan JSON örneklerini görüntüleyebilirsiniz:</p>
+<div class="api-box">
+    <div class="endpoint">
+        <div>
+            <a href="warehouse" target="_blank">Warehouse</a>
+        </div>
+    </div>
 
-    <ul>
-        <li>
-            <a href="warehouse/stockplaces.json" target="_blank">Depo - Stok Yerleri</a>
-            <small>Depo içindeki raf, koridor, blok gibi konum bilgilerini temsil eden örnek JSON yapısı.</small>
-        </li>
+    <div class="endpoint">
+        <div>
+            <a href="sales" target="_blank">Sales</a>
+        </div>
+    </div>
 
-        <li>
-            <a href="sales/order-city.json" target="_blank">Satış - Şehirlere Göre Siparişler</a>
-            <small>Müşteri sipariş adetlerinin şehirlere göre gruplandırılmış örnek JSON çıktısı.</small>
-        </li>
+    <div class="endpoint">
+        <div>
+            <a href="crm" target="_blank">CRM</a>
+        </div>
+    </div>
 
-        <li>
-            <a href="crm/list.json" target="_blank">CRM - Müşteri Listesi</a>
-            <small>Müşteri isimleri, iletişim bilgileri ve kısa CRM verilerini içeren temel örnek JSON.</small>
-        </li>
-    </ul>
 </div>
 
 </body>
