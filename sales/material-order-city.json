@@ -1,1 +1,72 @@
-{"test": 1234}
+[
+  {
+    "productCode": "UR001",
+    "productName": "Bluetooth Kulaklık",
+    "statistic": [
+      { "city": "İstanbul", "lat": 41.0082, "lng": 28.9784, "salesOrderCount": 385, "salesAmount": 3125600 },
+      { "city": "Ankara", "lat": 39.9208, "lng": 32.8541, "salesOrderCount": 190, "salesAmount": 1532900 },
+      { "city": "İzmir", "lat": 38.4237, "lng": 27.1428, "salesOrderCount": 168, "salesAmount": 1392000 },
+      { "city": "Bursa", "lat": 40.1950, "lng": 29.0600, "salesOrderCount": 124, "salesAmount": 1012000 },
+      { "city": "Antalya", "lat": 36.8969, "lng": 30.7133, "salesOrderCount": 147, "salesAmount": 1102940 },
+      { "city": "Konya", "lat": 37.8715, "lng": 32.4848, "salesOrderCount": 89, "salesAmount": 742300 },
+      { "city": "Adana", "lat": 37.0000, "lng": 35.3213, "salesOrderCount": 76, "salesAmount": 610500 },
+      { "city": "Trabzon", "lat": 41.0027, "lng": 39.7168, "salesOrderCount": 52, "salesAmount": 420000 }
+    ]
+  },
+  {
+    "productCode": "UR002",
+    "productName": "Akıllı Saat",
+    "statistic": [
+      { "city": "İstanbul", "lat": 41.0082, "lng": 28.9784, "salesOrderCount": 312, "salesAmount": 2871000 },
+      { "city": "Ankara", "lat": 39.9208, "lng": 32.8541, "salesOrderCount": 210, "salesAmount": 1880250 },
+      { "city": "İzmir", "lat": 38.4237, "lng": 27.1428, "salesOrderCount": 160, "salesAmount": 1460000 },
+      { "city": "Antalya", "lat": 36.8969, "lng": 30.7133, "salesOrderCount": 122, "salesAmount": 1085000 },
+      { "city": "Kayseri", "lat": 38.7312, "lng": 35.4787, "salesOrderCount": 97, "salesAmount": 788400 },
+      { "city": "Bursa", "lat": 40.1950, "lng": 29.0600, "salesOrderCount": 76, "salesAmount": 618000 },
+      { "city": "Mersin", "lat": 36.8121, "lng": 34.6415, "salesOrderCount": 64, "salesAmount": 540000 },
+      { "city": "Gaziantep", "lat": 37.0662, "lng": 37.3833, "salesOrderCount": 51, "salesAmount": 421200 }
+    ]
+  },
+  {
+    "productCode": "UR003",
+    "productName": "Şarjlı Diş Fırçası",
+    "statistic": [
+      { "city": "İzmir", "lat": 38.4237, "lng": 27.1428, "salesOrderCount": 180, "salesAmount": 1025400 },
+      { "city": "Ankara", "lat": 39.9208, "lng": 32.8541, "salesOrderCount": 161, "salesAmount": 954000 },
+      { "city": "Antalya", "lat": 36.8969, "lng": 30.7133, "salesOrderCount": 134, "salesAmount": 795200 },
+      { "city": "Bursa", "lat": 40.1950, "lng": 29.0600, "salesOrderCount": 118, "salesAmount": 674600 },
+      { "city": "Samsun", "lat": 41.2867, "lng": 36.3300, "salesOrderCount": 78, "salesAmount": 434000 },
+      { "city": "Mersin", "lat": 36.8121, "lng": 34.6415, "salesOrderCount": 64, "salesAmount": 356000 },
+      { "city": "Diyarbakır", "lat": 37.9100, "lng": 40.2400, "salesOrderCount": 59, "salesAmount": 330000 },
+      { "city": "Erzurum", "lat": 39.9043, "lng": 41.2679, "salesOrderCount": 40, "salesAmount": 218000 }
+    ]
+  },
+  {
+    "productCode": "UR004",
+    "productName": "Kablosuz Mouse",
+    "statistic": [
+      { "city": "Konya", "lat": 37.8715, "lng": 32.4848, "salesOrderCount": 155, "salesAmount": 387500 },
+      { "city": "Kayseri", "lat": 38.7312, "lng": 35.4787, "salesOrderCount": 137, "salesAmount": 342500 },
+      { "city": "Sakarya", "lat": 40.7569, "lng": 30.3781, "salesOrderCount": 99, "salesAmount": 247000 },
+      { "city": "Gaziantep", "lat": 37.0662, "lng": 37.3833, "salesOrderCount": 92, "salesAmount": 231000 },
+      { "city": "Eskişehir", "lat": 39.7667, "lng": 30.5256, "salesOrderCount": 87, "salesAmount": 215000 },
+      { "city": "Malatya", "lat": 38.3552, "lng": 38.3095, "salesOrderCount": 60, "salesAmount": 150000 },
+      { "city": "Trabzon", "lat": 41.0027, "lng": 39.7168, "salesOrderCount": 52, "salesAmount": 127000 },
+      { "city": "Hatay", "lat": 36.2021, "lng": 36.1619, "salesOrderCount": 46, "salesAmount": 110000 }
+    ]
+  },
+  {
+    "productCode": "UR005",
+    "productName": "Powerbank 20000mAh",
+    "statistic": [
+      { "city": "Diyarbakır", "lat": 37.9100, "lng": 40.2400, "salesOrderCount": 130, "salesAmount": 1040000 },
+      { "city": "Trabzon", "lat": 41.0027, "lng": 39.7168, "salesOrderCount": 90, "salesAmount": 735000 },
+      { "city": "Van", "lat": 38.5012, "lng": 43.3723, "salesOrderCount": 67, "salesAmount": 540000 },
+      { "city": "Şanlıurfa", "lat": 37.1674, "lng": 38.7955, "salesOrderCount": 77, "salesAmount": 625000 },
+      { "city": "Samsun", "lat": 41.2867, "lng": 36.3300, "salesOrderCount": 105, "salesAmount": 892000 },
+      { "city": "Antalya", "lat": 36.8969, "lng": 30.7133, "salesOrderCount": 85, "salesAmount": 700400 },
+      { "city": "Kayseri", "lat": 38.7312, "lng": 35.4787, "salesOrderCount": 66, "salesAmount": 516000 },
+      { "city": "Bursa", "lat": 40.1950, "lng": 29.0600, "salesOrderCount": 54, "salesAmount": 436000 }
+    ]
+  }
+]
