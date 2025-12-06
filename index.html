@@ -1,76 +1,120 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API JSON Endpoints</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #eef1f5;
-        }
-        .api-box {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 850px;
-            width: 60%;
-            box-shadow: 0 5px 12px rgba(0,0,0,0.1);
-        }
-        .endpoint {
-            background: #ffffff;
-            border-left: 5px solid #4070f4;
-            padding: 12px;
-            margin-bottom: 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .methods span {
-            padding: 3px 7px;
-            border-radius: 5px;
-            margin-right: 10px;
-            font-size: 12px;
-            color: white;
-        }
-        .get { background: #2ecc71; }
-        .post { background: #3498db; }
-        .put { background: #f39c12; }
-        .delete { background: #e74c3c; }
-        .info {
-            color: #555;
-            font-size: 13px;
-            margin-top: 5px;
-        }
-        a {
-            font-weight: bold;
-            color: #2c3e50;
-            text-decoration: none;
-        }
-        a:hover {
-            color: #3478ff;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reybex Frontend Çalışmaları</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background: #eef1f5;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .api-box {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        max-width: 900px;
+        width: 70%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .logo img {
+        width: 90px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin: 0 0 15px 0;
+        color: #2c3e50;
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 15px;
+        color: #555;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .endpoint {
+        background: #ffffff;
+        border-left: 5px solid #4070f4;
+        padding: 15px 18px;
+        margin-bottom: 18px;
+        border-radius: 6px;
+        transition: 0.25s;
+        text-align: left;
+    }
+
+    .endpoint:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        cursor: pointer;
+    }
+
+    .endpoint a {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2c3e50;
+        text-decoration: none;
+    }
+
+    .endpoint a:hover {
+        color: #4070f4;
+    }
+
+    .task-info {
+        color: #555;
+        font-size: 13px;
+        margin-top: 6px;
+    }
+</style>
 </head>
 <body>
 
 <div class="api-box">
-    <div class="endpoint">
-        <div><a href="warehouse">Warehouse</a></div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <!-- Eğer logonun URL'si varsa src="" içine koy -->
+        <img src="https://www.reybex.com/wp-content/uploads/2024/04/Reybex_Logo_Bildmarke_darkgreen_RGB-768x768.png" alt="Reybex Logo">
     </div>
 
-    <div class="endpoint">
-        <div><a href="sales">Sales</a></div>
+    <h2>Reybex Frontend Demo Çalışmaları</h2>
+    <p class="description">
+        Aşağıda listelenen çalışmalar, Reybex API üzerinden sağlanan JSON verileri ile 
+        farklı arayüz bileşenleri geliştirilmesini amaçlayan örnek uygulamalardır. 
+        Her çalışma, gerçek kullanım senaryolarına uygun şekilde veri görselleştirme 
+        ve kullanıcı etkileşimi odaklı tasarlanmıştır.
+    </p>
+
+    <!-- Warehouse -->
+    <div class="endpoint" onclick="location.href='warehouse'">
+        <a href="warehouse">Warehouse</a>
+        <div class="task-info">Verilen stok yeri bilgilerinin veri görselleştirilmesi yapılacaktır.</div>
     </div>
 
-    <div class="endpoint">
-        <div><a href="crm">CRM</a></div>
+    <!-- Sales -->
+    <div class="endpoint" onclick="location.href='sales'">
+        <a href="sales">Sales</a>
+        <div class="task-info">Verilen satış verilerinin harita üzerinde görselleştirilmesi hedeflenmektedir.</div>
     </div>
+
+    <!-- CRM -->
+    <div class="endpoint" onclick="location.href='crm'">
+        <a href="crm">CRM</a>
+        <div class="task-info">
+            Müşteriler için liste ve harita görünümü; müşteri detayında aktivite bilgilerinin gösterilmesi planlanmaktadır.
+        </div>
+    </div>
+
 </div>
 
 </body>
