@@ -1,1 +1,72 @@
-{"test": 123}
+[
+  {
+    "city": "İstanbul",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "salesOrderCount": 245,
+    "salesAmount": 1859123
+  },
+  {
+    "city": "Ankara",
+    "lat": 39.9208,
+    "lng": 32.8541,
+    "salesOrderCount": 180,
+    "salesAmount": 1387421
+  },
+  {
+    "city": "İzmir",
+    "lat": 38.4192,
+    "lng": 27.1287,
+    "salesOrderCount": 125,
+    "salesAmount": 923514
+  },
+  {
+    "city": "Bursa",
+    "lat": 40.1950,
+    "lng": 29.0600,
+    "salesOrderCount": 98,
+    "salesAmount": 637880
+  },
+  {
+    "city": "Antalya",
+    "lat": 36.8969,
+    "lng": 30.7133,
+    "salesOrderCount": 142,
+    "salesAmount": 1102940
+  },
+  {
+    "city": "Adana",
+    "lat": 37.0000,
+    "lng": 35.3213,
+    "salesOrderCount": 76,
+    "salesAmount": 412350
+  },
+  {
+    "city": "Konya",
+    "lat": 37.8714,
+    "lng": 32.4846,
+    "salesOrderCount": 85,
+    "salesAmount": 502210
+  },
+  {
+    "city": "Gaziantep",
+    "lat": 37.0662,
+    "lng": 37.3833,
+    "salesOrderCount": 105,
+    "salesAmount": 685430
+  },
+  {
+    "city": "Mersin",
+    "lat": 36.8121,
+    "lng": 34.6415,
+    "salesOrderCount": 65,
+    "salesAmount": 358210
+  },
+  {
+    "city": "Kayseri",
+    "lat": 38.7312,
+    "lng": 35.4787,
+    "salesOrderCount": 70,
+    "salesAmount": 380150
+  }
+]
