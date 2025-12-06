@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API JSON Endpoints</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #eef1f5;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .api-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 850px;
+            width: 60%;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+        }
+        .endpoint {
+            background: #ffffff;
+            border-left: 5px solid #4070f4;
+            padding: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .methods span {
+            padding: 3px 7px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 12px;
+            color: white;
+        }
+        .get { background: #2ecc71; }
+        .post { background: #3498db; }
+        .put { background: #f39c12; }
+        .delete { background: #e74c3c; }
+        .info {
+            color: #555;
+            font-size: 13px;
+            margin-top: 5px;
+        }
+        a {
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #3478ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="api-box">
+    <div class="endpoint">
+        <div>
+            <a href="customers-activities.json" target="_blank">Customer Activities</a>
+            <div class="info">Müşteri ve Eylemleri Bilgileri Sunulur</div>
+        </div>
+        <div class="methods">
+            <span class="get">GET</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
