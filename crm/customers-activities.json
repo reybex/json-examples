@@ -1,0 +1,611 @@
+[
+    {
+        "customerId": "CUST-001",
+        "customerName": "Aksoy Ticaret A.Ş.",
+        "city": "İstanbul",
+        "lat": 41.0082,
+        "lng": 28.9784,
+        "salesOrderCount": 42,
+        "salesAmount": 412500,
+        "lastOrderDate": "2025-11-28T14:32:00Z",
+        "phone": "+90-532-111-0101",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Yeni ürün tanıtımı",
+                "description": "Yeni yatak serisi hakkında bilgilendirme yapıldı",
+                "date": "2025-11-10T09:30:00Z"
+            },
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Toplu alış teklifi",
+                "description": "50 adet ortopedik yatak için teklif mail ile gönderildi",
+                "date": "2025-11-12T14:20:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-002",
+        "customerName": "Ege Ev Gereçleri",
+        "city": "İzmir",
+        "lat": 38.4237,
+        "lng": 27.1428,
+        "salesOrderCount": 18,
+        "salesAmount": 126800,
+        "lastOrderDate": "2025-10-21T09:15:00Z",
+        "phone": "+90-532-222-0202",
+        "activities": []
+    },
+    {
+        "customerId": "CUST-003",
+        "customerName": "Başkent Mobilya",
+        "city": "Ankara",
+        "lat": 39.9208,
+        "lng": 32.8541,
+        "salesOrderCount": 34,
+        "salesAmount": 289000,
+        "lastOrderDate": "2025-11-02T11:50:00Z",
+        "phone": "+90-533-333-0303",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Mağaza içi teşhir planlama",
+                "description": "Köşe takımlarının konumlandırması görüşüldü",
+                "date": "2025-10-15T13:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-004",
+        "customerName": "Bursa Evim",
+        "city": "Bursa",
+        "lat": 40.1950,
+        "lng": 29.0600,
+        "salesOrderCount": 12,
+        "salesAmount": 91000,
+        "lastOrderDate": "2025-09-12T16:05:00Z",
+        "phone": "+90-534-444-0404",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Teslim Süreç Takibi",
+                "description": "Kargoya verilen ürünler hakkında bilgi verildi",
+                "date": "2025-09-14T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-005",
+        "customerName": "Antalya Konfor",
+        "city": "Antalya",
+        "lat": 36.8969,
+        "lng": 30.7133,
+        "salesOrderCount": 27,
+        "salesAmount": 198750,
+        "lastOrderDate": "2025-11-15T08:20:00Z",
+        "phone": "+90-532-555-0505",
+        "activities": [
+            {
+                "actionType": "Demo Gösterimi",
+                "subject": "Yeni yatak bazası",
+                "description": "Motorlu baza tanıtımı yapıldı",
+                "date": "2025-11-05T14:10:00Z"
+            },
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Toplu sipariş",
+                "description": "Motorlu baza için toplu fiyat teklif edildi",
+                "date": "2025-11-07T11:30:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-006",
+        "customerName": "Adana Ev Aksesuar",
+        "city": "Adana",
+        "lat": 37.0000,
+        "lng": 35.3213,
+        "salesOrderCount": 9,
+        "salesAmount": 45200,
+        "lastOrderDate": "2025-08-05T13:40:00Z",
+        "phone": "+90-533-666-0606",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Ödeme planı",
+                "description": "Vadeli ödeme talebi konuşuldu",
+                "date": "2025-08-10T10:40:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-007",
+        "customerName": "Konya Doğa",
+        "city": "Konya",
+        "lat": 37.8714,
+        "lng": 32.4846,
+        "salesOrderCount": 15,
+        "salesAmount": 98000,
+        "lastOrderDate": "2025-10-30T10:10:00Z",
+        "phone": "+90-534-777-0707",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Yeni mağaza açılışı",
+                "description": "Mağaza için teşhir ürünleri planlandı",
+                "date": "2025-10-02T09:15:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Teslimat tarihi",
+                "description": "Nakliye tarihi teyit edildi",
+                "date": "2025-10-10T12:30:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-008",
+        "customerName": "Antep Ev",
+        "city": "Gaziantep",
+        "lat": 37.0662,
+        "lng": 37.3833,
+        "salesOrderCount": 21,
+        "salesAmount": 132500,
+        "lastOrderDate": "2025-11-20T12:00:00Z",
+        "phone": "+90-532-888-0808",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Yastık kampanya paketi",
+                "description": "İkili paket fiyatlandırma gönderildi",
+                "date": "2025-11-01T08:30:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-009",
+        "customerName": "Mersin Mağaza",
+        "city": "Mersin",
+        "lat": 36.8121,
+        "lng": 34.6415,
+        "salesOrderCount": 7,
+        "salesAmount": 38500,
+        "lastOrderDate": "2025-07-18T09:00:00Z",
+        "phone": "+90-533-999-0909",
+        "activities": []
+    },
+    {
+        "customerId": "CUST-010",
+        "customerName": "Kayseri Ev",
+        "city": "Kayseri",
+        "lat": 38.7312,
+        "lng": 35.4787,
+        "salesOrderCount": 11,
+        "salesAmount": 64500,
+        "lastOrderDate": "2025-11-01T15:25:00Z",
+        "phone": "+90-534-101-1010",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Fiyat güncellemeleri",
+                "description": "Bazı ürünlerde fiyat artışı paylaşıldı",
+                "date": "2025-10-08T09:40:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-011",
+        "customerName": "Samsun Mobilya",
+        "city": "Samsun",
+        "lat": 41.2867,
+        "lng": 36.3300,
+        "salesOrderCount": 5,
+        "salesAmount": 28000,
+        "lastOrderDate": "2025-06-22T14:00:00Z",
+        "phone": "+90-532-121-1212",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Ekstra indirim talebi",
+                "description": "Yeni müşteri kazandırma şartıyla indirim konuşuldu",
+                "date": "2025-06-25T11:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-012",
+        "customerName": "Sakarya Ev",
+        "city": "Sakarya",
+        "lat": 40.7569,
+        "lng": 30.3781,
+        "salesOrderCount": 8,
+        "salesAmount": 49000,
+        "lastOrderDate": "2025-10-12T10:45:00Z",
+        "phone": "+90-533-131-1313",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Kampanyalı baza",
+                "description": "E-posta ile kampanya gönderildi",
+                "date": "2025-10-01T13:25:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Teklif teyidi",
+                "description": "Geri dönüş için arandı",
+                "date": "2025-10-04T09:10:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-013",
+        "customerName": "Eskişehir Tasarım",
+        "city": "Eskişehir",
+        "lat": 39.7667,
+        "lng": 30.5256,
+        "salesOrderCount": 14,
+        "salesAmount": 82000,
+        "lastOrderDate": "2025-11-10T11:11:00Z",
+        "phone": "+90-534-141-1414",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Yeni koleksiyon tanıtımı",
+                "description": "Premium yatak modelleri gösterildi",
+                "date": "2025-11-01T14:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-014",
+        "customerName": "Trabzon Evcil",
+        "city": "Trabzon",
+        "lat": 41.0027,
+        "lng": 39.7168,
+        "salesOrderCount": 6,
+        "salesAmount": 36000,
+        "lastOrderDate": "2025-09-02T09:30:00Z",
+        "phone": "+90-532-151-1515",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Numune isteği",
+                "description": "Yastık numunesi gönderimi ayarlandı",
+                "date": "2025-09-03T15:15:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-015",
+        "customerName": "Diyarbakır Market",
+        "city": "Diyarbakır",
+        "lat": 37.9100,
+        "lng": 40.2400,
+        "salesOrderCount": 19,
+        "salesAmount": 145000,
+        "lastOrderDate": "2025-11-24T17:05:00Z",
+        "phone": "+90-533-161-1616",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Stok kontrolü",
+                "description": "Teslimat gecikmesi kontrol edildi",
+                "date": "2025-11-12T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-016",
+        "customerName": "Van Ev",
+        "city": "Van",
+        "lat": 38.5012,
+        "lng": 43.3723,
+        "salesOrderCount": 4,
+        "salesAmount": 22000,
+        "lastOrderDate": "2025-05-30T08:00:00Z",
+        "phone": "+90-534-171-1717",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Teslimat teyidi",
+                "description": "Yeni adres güncellendi",
+                "date": "2025-05-28T12:14:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-017",
+        "customerName": "Sivas Dekor",
+        "city": "Sivas",
+        "lat": 39.7485,
+        "lng": 37.0155,
+        "salesOrderCount": 3,
+        "salesAmount": 15000,
+        "lastOrderDate": "2025-04-18T13:20:00Z",
+        "phone": "+90-532-181-1818",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Özel sipariş yatağı",
+                "description": "Fiyat e-mail ile iletildi",
+                "date": "2025-04-10T09:00:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Onay takip",
+                "description": "Teklif dönüşü soruldu",
+                "date": "2025-04-14T16:45:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-018",
+        "customerName": "Balıkesir Ev",
+        "city": "Balıkesir",
+        "lat": 39.6484,
+        "lng": 27.8826,
+        "salesOrderCount": 10,
+        "salesAmount": 59000,
+        "lastOrderDate": "2025-10-05T12:12:00Z",
+        "phone": "+90-533-191-1919",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Yeni kampanya bilgilendirme",
+                "description": "Kış yorgan seti kampanyası paylaşıldı",
+                "date": "2025-09-29T11:30:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-019",
+        "customerName": "Çanakkale Tasarım",
+        "city": "Çanakkale",
+        "lat": 40.1553,
+        "lng": 26.4142,
+        "salesOrderCount": 2,
+        "salesAmount": 12000,
+        "lastOrderDate": "2025-03-21T09:00:00Z",
+        "phone": "+90-534-201-2020",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Numune isteği",
+                "description": "Özel tasarım yastık numunesi gönderildi",
+                "date": "2025-03-20T13:15:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-020",
+        "customerName": "Uşak Home",
+        "city": "Uşak",
+        "lat": 38.6770,
+        "lng": 29.4052,
+        "salesOrderCount": 1,
+        "salesAmount": 6500,
+        "lastOrderDate": "2025-02-11T10:10:00Z",
+        "phone": "+90-532-211-2121",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Tanışma araması",
+                "description": "Yeni bayi adayı olarak ilk iletişim",
+                "date": "2025-02-05T12:20:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-021",
+        "customerName": "Malatya Ev Gereçleri",
+        "city": "Malatya",
+        "lat": 38.3552,
+        "lng": 38.3095,
+        "salesOrderCount": 13,
+        "salesAmount": 76000,
+        "lastOrderDate": "2025-11-07T14:40:00Z",
+        "phone": "+90-533-221-2222",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Yorgan seti",
+                "description": "Kışlık yorgan seti teklifi gönderildi",
+                "date": "2025-11-01T10:15:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-022",
+        "customerName": "Hatay Mağazacılık",
+        "city": "Hatay",
+        "lat": 36.2021,
+        "lng": 36.1619,
+        "salesOrderCount": 16,
+        "salesAmount": 98000,
+        "lastOrderDate": "2025-09-28T16:55:00Z",
+        "phone": "+90-534-231-2323",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Yeni mağaza tasarımı",
+                "description": "Teşhir düzeni çizimleri gösterildi",
+                "date": "2025-09-12T14:00:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Taşıma ücreti",
+                "description": "Nakliye teklif güncellemesi konuşuldu",
+                "date": "2025-09-16T11:50:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-023",
+        "customerName": "Karadeniz Ev",
+        "city": "Zonguldak",
+        "lat": 41.4564,
+        "lng": 31.7987,
+        "salesOrderCount": 3,
+        "salesAmount": 18000,
+        "lastOrderDate": "2025-06-02T11:11:00Z",
+        "phone": "+90-532-241-2424",
+        "activities": []
+    },
+    {
+        "customerId": "CUST-024",
+        "customerName": "Aydın Mobilya",
+        "city": "Aydın",
+        "lat": 37.7746,
+        "lng": 27.4034,
+        "salesOrderCount": 6,
+        "salesAmount": 35500,
+        "lastOrderDate": "2025-08-29T09:45:00Z",
+        "phone": "+90-533-251-2525",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Yeni yastık serisi",
+                "description": "Ekstra dolgulu yastık fiyatları paylaşıldı",
+                "date": "2025-08-20T13:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-025",
+        "customerName": "Kocaeli Ev Dekor",
+        "city": "Kocaeli",
+        "lat": 40.7667,
+        "lng": 29.9169,
+        "salesOrderCount": 20,
+        "salesAmount": 142000,
+        "lastOrderDate": "2025-11-18T10:30:00Z",
+        "phone": "+90-534-261-2626",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Yeni ürün broşürü",
+                "description": "PDF broşür WhatsApp ile gönderildi",
+                "date": "2025-11-05T15:40:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-051",
+        "customerName": "Sakarya Ev Tekstil",
+        "city": "Sakarya",
+        "lat": 40.7733,
+        "lng": 30.3948,
+        "salesOrderCount": 18,
+        "salesAmount": 248700,
+        "lastOrderDate": "2025-01-12T12:10:00Z",
+        "phone": "+90-264-555-1001",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Mağaza içi stand",
+                "description": "Kampanya standı yerleşimi yapıldı",
+                "date": "2025-01-10T15:00:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Sipariş teyidi",
+                "description": "Son sipariş içeriği teyit edildi",
+                "date": "2025-01-12T13:45:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-052",
+        "customerName": "Adapazarı Mobilya",
+        "city": "Sakarya",
+        "lat": 40.7848,
+        "lng": 30.4033,
+        "salesOrderCount": 31,
+        "salesAmount": 392500,
+        "lastOrderDate": "2025-02-05T15:42:00Z",
+        "phone": "+90-264-555-1020",
+        "activities": [
+            {
+                "actionType": "Demo Gösterimi",
+                "subject": "Ortopedik yatak",
+                "description": "Katlanabilir mekanizma tanıtıldı",
+                "date": "2025-01-28T09:00:00Z"
+            },
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Teşhir ürünleri",
+                "description": "İndirimli teşhir ürün listesi gönderildi",
+                "date": "2025-01-29T17:00:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "İade talebi",
+                "description": "Kumaş rengi uyumsuzluğu sebebiyle iade konuşuldu",
+                "date": "2025-02-04T10:40:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-053",
+        "customerName": "Serdivan Home Design",
+        "city": "Sakarya",
+        "lat": 40.7459,
+        "lng": 30.3712,
+        "salesOrderCount": 27,
+        "salesAmount": 310850,
+        "lastOrderDate": "2024-12-25T09:20:00Z",
+        "phone": "+90-264-555-1033",
+        "activities": [
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Sezon indirimi",
+                "description": "Yıl sonu kampanyası paylaşıldı",
+                "date": "2024-12-15T12:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-054",
+        "customerName": "Erenler Koltuk & Yatak",
+        "city": "Sakarya",
+        "lat": 40.7501,
+        "lng": 30.4221,
+        "salesOrderCount": 14,
+        "salesAmount": 189500,
+        "lastOrderDate": "2025-01-30T11:50:00Z",
+        "phone": "+90-264-555-1290",
+        "activities": [
+            {
+                "actionType": "Teklif Gönderme",
+                "subject": "Koltuk takımı",
+                "description": "3 farklı renk opsiyonu gönderildi",
+                "date": "2025-01-20T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "customerId": "CUST-055",
+        "customerName": "Hendek Yatak Deposu",
+        "city": "Sakarya",
+        "lat": 40.7996,
+        "lng": 30.7483,
+        "salesOrderCount": 22,
+        "salesAmount": 279900,
+        "lastOrderDate": "2025-02-01T14:06:00Z",
+        "phone": "+90-264-555-1982",
+        "activities": [
+            {
+                "actionType": "Yerinde Ziyaret",
+                "subject": "Depo stok yerleştirme",
+                "description": "Stok yönetim sistemi anlatıldı",
+                "date": "2025-01-18T16:00:00Z"
+            },
+            {
+                "actionType": "Telefon Araması",
+                "subject": "Sipariş güncelleme",
+                "description": "Ekstra yastık adedi eklendi",
+                "date": "2025-01-22T09:25:00Z"
+            }
+        ]
+    }
+]
